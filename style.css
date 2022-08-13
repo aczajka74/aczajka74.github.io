@@ -1,0 +1,16 @@
+#Testing {
+  display: flex;
+  position: absolute;
+  background-color: #00000000;
+  color: #FFFFFF;
+  text-shadow: 0 0 8px #000000;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Homemade Apple', cursive;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 400%;
+  transition: font-size 250ms;
+  text-align: center;
+}
