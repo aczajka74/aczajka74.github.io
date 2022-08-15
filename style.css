@@ -13,4 +13,16 @@
   font-size: 400%;
   transition: font-size 250ms;
   text-align: center;
+  
+}
+
+#Header {
+  position: fixed;
+  background-color: #F0F0F0;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 1000;
+  opacity: 0.8;
+  left: 1%;
+  right: 1%;
+  padding: 10px;
 }
