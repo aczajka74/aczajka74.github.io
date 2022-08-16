@@ -1,8 +1,16 @@
-
-function test () {
+function animate () {
   const colChange = ColorChanger();
-  colChange.updateBG()
-  colChange.updateText()
+  colChange.updateBG();
+  colChange.updateText();
+}
+
+async function playAudio() {
+  const audio = new Audio('https://ia802805.us.archive.org/3/items/redvelvet_202001/track47.mp3');
+  try {
+    await audio.play();
+  } catch (err) {
+    console.error(err);
+  }
 }
 
 function ColorChanger() {
